@@ -18,7 +18,7 @@ body {
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.info { text-align: center;
 }
 }
 .todo-form {
@@ -43,7 +43,7 @@ h3 {
     list-style:none;
 }
 input,
-button{
+button {
     outline:none;
 }
 button {
