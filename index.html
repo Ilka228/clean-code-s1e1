@@ -11,15 +11,15 @@
       <a class="info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </section>
     <section class="todo-form">
-      <div id="todo-form_task__new">
+      <div id="todo-form__task__new">
         <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
+        <div class="todo-form__task__new__wrapper">
+          <input id="new-task" class="task todo-form__task__new__input" type="text">
           <button>Add</button>
         </div>
       </div>
       <h3>Todo</h3>
-      <ul id="incompleteTasks">
+      <ul id="incompleted__tasks" class="todo-form__task__complete">
         <li>  
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -27,7 +27,7 @@
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg" alt="remove button"></button>
         </li>
-        <li class="editMode">
+        <li class="edit__on">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
@@ -36,7 +36,7 @@
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
+      <ul id="completed__tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>

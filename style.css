@@ -27,7 +27,7 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.todo-form__task__new__wrapper {
     display: flex;
 }
 ul {
@@ -86,7 +86,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+.todo-form__task__new__input {
     width: 318px;
 }
 
@@ -136,12 +136,12 @@ ul li input[type=text] {
     display:none;
 }
 
-ul li.editMode input[type=text] {
+.edit__on input[type=text] {
     display:inline-block;
     width:224px;
 }
 
-ul li.editMode label {
+.edit__on label {
     display:none;
 }
 
