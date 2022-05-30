@@ -164,7 +164,7 @@ ul li input[type=text] {
     display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     .info {
       text-align: center;
